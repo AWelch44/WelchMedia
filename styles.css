@@ -1,0 +1,231 @@
+/* Responsive */
+
+
+
+
+
+.content {
+  box-sizing: border-box;
+    border: 0px
+    padding: 950px;
+    margin: 65px;
+    display: inline-block;
+    border-style: hidden;
+
+}
+
+
+
+ h1 {
+  margin: 50px;
+  padding: 350px;
+  width: 20%;
+
+
+
+
+
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #ffffff;
+    text-align: center;
+    min-width: 10%;
+
+
+
+
+
+}
+
+/* Navigation */
+
+
+
+  a:link, a:active, a:visited  {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.dropbtn {
+  background-color: white;
+  padding: 18px;
+  font-size: 16px;
+  border: black;
+  cursor: pointer;
+  font-color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 5px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+.show {
+  display: block;
+}
+
+/* Navigation */
+
+/* Diary */
+.diary {
+  width: 95%;
+height: 50%;
+align: center;
+}
+
+
+/* Diary */
+
+p {
+  align: center;
+}
+
+/* Gallery */
+
+
+.gallery {
+border: none;
+margin: 50px;
+
+
+
+
+}
+
+.mySlides {
+  display: block;
+  border: none;
+  margin: auto;
+  align: center;
+  max-width: 690px;
+  max-height: 600px;
+  min-width: 20px;
+  min-height: 20px;
+  animation: fade 3s;
+
+
+
+}
+
+.prev, .next {
+  cursor: pointer;
+    width: 100%;
+    top: 10%;
+    left: 0;
+    margin: 5px;
+    display: inline-block;
+}
+
+.prev {
+    color: #888;
+    float: center;
+    border: 15%;
+    text-decoration: none;
+    width: 100px;
+    border-color: grey;
+    display: inline-block;
+}
+
+.next{
+    color: #888;
+    float: bottom;
+    border: 15%;
+    text-decoration: none;
+    width: 100px;
+    border-color: grey;
+    display: inline-block;
+}
+
+  @keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 3 }
+
+}
+
+
+/* Gallery */
+
+
+/*Contact Buttons */
+.fa {
+  padding: 40px;
+  font-size: 80px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* instagram */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+/* youtube */
+.fa-youtube {
+  background: #3B5998;
+  color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+
+/*Contact Buttons */
+
+
+
+  .footer{
+    font-family: Helvetica;
+    float: bottom;
+  }

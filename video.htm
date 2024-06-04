@@ -1,0 +1,145 @@
+<!Doctype html>
+<head>
+ <link rel="stylesheet" href="styles.css">
+
+ <!-- Global site tag (gtag.js) - Google Ads: 949784283 -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=AW-949784283"></script>
+ <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-949784283'); </script>
+
+<title>Video | Andy Welch</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no/>
+
+<div class="container">
+
+  <div class="content">
+    <!-- Page content -->
+<div>
+<a href="http://www.andywelchmedia.com"><img src="images/header.jpg"></a>
+</div>
+  </head>
+
+
+  <div class="dropdown">
+  <button onclick="myFunction(this);" class="dropbtn">Portfolio <span>&#8595;</span></button>
+  <div id="myDropdown1" class="dropdown-content">
+    <a class="lifestyle"><a href="http://www.andywelchmedia.com/lifestyle.htm">Lifestyle </a>
+    <a class="fashion"><a href="http://www.andywelchmedia.com/fashion.htm">Fashion </a>
+    <a class="beauty"><a href="http://www.andywelchmedia.com/beauty.htm">Beauty </a>
+    <a class="entertainment"><a href="http://www.andywelchmedia.com/entertainment.htm">Entertainment </a>
+    <a class="fashion"><a href="http://www.andywelchmedia.com/press.htm">Press </a>
+    <a class="video"><a href="http://www.andywelchmedia.com/video.htm">Video </a>
+</div>
+
+<div class="dropdown">
+  <button onclick="myFunction(this);" class="dropbtn">Personal <span>&#8595;</span></button>
+  <div id="myDropdown2" class="dropdown-content">
+</button>
+  <a class="architecture"><a href="http://www.andywelchmedia.com/architecture.htm">Other Earth </a>
+  <a class="virtualangels"><a href="http://www.andywelchmedia.com/virtualangels.htm">Virtual Angels </a>
+  <a class="angelsofatlantis"><a href="http://www.andywelchmedia.com/angelsofatlantis.htm">Angels of Atlantis </a>
+</div>
+    <a class="diary"><a href="http://www.andywelchmedia.com/diary.htm">Diary | </a>
+    <a class="about"><a href="http://www.andywelchmedia.com/about.htm">About AW | </a>
+    <a class="contact"><a href="http://www.andywelchmedia.com/contact.htm">Contact |</a>
+  </div>
+</div>
+
+  <script>
+  function myFunction(element) {
+  var dropdowns = document.getElementsByClassName("dropdown-content");
+
+  // element.nextSibling is the carriage return… The dropdown menu is the next next.
+  var thisDropdown = element.nextSibling.nextSibling;
+
+  if (!thisDropdown.classList.contains('show')) {  // Added to hide dropdown if clicking on the one already open
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      dropdowns[i].classList.remove('show');
+    }
+  }
+
+  // Toggle the dropdown on the element clicked
+  thisDropdown.classList.toggle("show");
+}
+
+/* W3Schools function to close the dropdown when clicked outside. */
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+
+
+
+
+<body>
+<br>
+</br>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <div class="gallery">
+
+    <iframe class="mySlides" src="https://player.vimeo.com/video/525098020" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/520403352" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/568148271" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/489939062" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/489934586" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/490457280" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/490458058" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/490459875" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/490460151" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/490460453" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe class="mySlides" src="https://player.vimeo.com/video/490461567" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+</div>
+</body>
+
+
+<div class-"footer">
+<footer>
+  Copyright Andy Welch | All Rights Reserved | Site by Andy Welch
+</footer>
+</div>
+</div>

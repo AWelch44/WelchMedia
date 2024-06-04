@@ -1,0 +1,86 @@
+<!Doctype html>
+<head>
+ <link rel="stylesheet" href="styles.css">
+
+<title>Andy Welch | Fashion Photographer</title>
+
+
+
+<div class="container">
+
+  <div class="content">
+    <!-- Page content -->
+<div>
+
+<img src="images/Header.jpg">
+
+</div>
+  </head>
+
+
+  <div class="topnav">
+    <a class="home"><a href="http://www.andywelchphoto.com/index.htm">Lifestyle |</a>
+    <a class="fashion"><a href="http://www.andywelchphoto.com/fashion.htm">Fashion |</a>
+    <a class="beauty"><a href="http://www.andywelchphoto.com/beauty.htm">Beauty |</a>
+    <a class="entertainment"><a href="http://www.andywelchphoto.com/entertainment.htm">Entertainment |</a>
+    <a class="architecture"><a href="http://www.andywelchphoto.com/architecture.htm">Architecture |</a>
+    <a class="diary"><a href="http://www.andywelchphoto.com/diary.htm">Diary |</a>
+    <a class="about"><a href="http://www.andywelchphoto.com/about.htm">About AW |</a>
+    <a class="contact"><a href="http://www.andywelchphoto.com/contact.htm">Contact</a>
+  </div>
+
+<body>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+  <div class="gallery">
+
+  <img class="mySlides" src="images/20170709-IMG_8774.jpg">
+  <img class="mySlides" src="images/20170709-IMG_8785.jpg">
+  <img class="mySlides" src="images/20170805-IMG_9079.jpg">
+  <img class="mySlides" src="images/20170805-IMG_9120-Edit-Edit.jpg">
+  <img class="mySlides" src="images/20170805-IMG_9342.jpg">
+  <img class="mySlides" src="images/20170805-IMG_9401-Edit-Edit.jpg">
+  <img class="mySlides" src="images/IMG_0950-Edit.jpg">
+  <img class="mySlides" src="images/IMG_1159-Edit.jpg">
+  <img class="mySlides" src="images/IMG_5818-Edit.jpg">
+  <img class="mySlides" src="images/IMG_5854-Edit.jpg">
+  <img class="mySlides" src="images/IMG_5884-Edit.jpg">
+</div>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+</div>
+</body>
+
+<div class-"footer">
+<footer>
+  Copyright Andy Welch | All Rights Reserved | Site by Andy Welch
+</footer>
+</div>
+</div>
