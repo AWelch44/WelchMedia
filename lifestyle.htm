@@ -1,162 +1,152 @@
-
-<!Doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
- <link rel="stylesheet" href="styles.css">
-
- <!-- Global site tag (gtag.js) - Google Ads: 949784283 -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-949784283"></script>
- <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-949784283'); </script>
-
-<title>Lifestyle | Andy Welch</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no/>
-
-<div class="container">
-
-  <div class="content">
-    <!-- Page content -->
-<div>
-
-<a href="http://www.andywelchmedia.com"><img src="images/header.jpg"></a>
-
-</div>
-  </head>
-
-  <div class="dropdown">
-  <button onclick="myFunction(this);" class="dropbtn">Portfolio <span>&#8595;</span></button>
-  <div id="myDropdown1" class="dropdown-content">
-    <a class="lifestyle"><a href="http://www.andywelchmedia.com/lifestyle.htm">Lifestyle </a>
-    <a class="fashion"><a href="http://www.andywelchmedia.com/fashion.htm">Fashion </a>
-    <a class="beauty"><a href="http://www.andywelchmedia.com/beauty.htm">Beauty </a>
-    <a class="entertainment"><a href="http://www.andywelchmedia.com/entertainment.htm">Entertainment </a>
-    <a class="fashion"><a href="http://www.andywelchmedia.com/press.htm">Press </a>
-    <a class="video"><a href="http://www.andywelchmedia.com/video.htm">Video </a>
-</div>
-
-<div class="dropdown">
-  <button onclick="myFunction(this);" class="dropbtn">Personal <span>&#8595;</span></button>
-  <div id="myDropdown2" class="dropdown-content">
-</button>
-  <a class="architecture"><a href="http://www.andywelchmedia.com/architecture.htm">Other Earth </a>
-  <a class="virtualangels"><a href="http://www.andywelchmedia.com/virtualangels.htm">Virtual Angels </a>
-  <a class="angelsofatlantis"><a href="http://www.andywelchmedia.com/angelsofatlantis.htm">Angels of Atlantis </a>
-</div>
-    <a class="diary"><a href="http://www.andywelchmedia.com/diary.htm">Diary | </a>
-    <a class="about"><a href="http://www.andywelchmedia.com/about.htm">About AW | </a>
-    <a class="contact"><a href="http://www.andywelchmedia.com/contact.htm">Contact |</a>
-</div>
-</div>
-
-  <script>
-  function myFunction(element) {
-  var dropdowns = document.getElementsByClassName("dropdown-content");
-
-  // element.nextSibling is the carriage return… The dropdown menu is the next next.
-  var thisDropdown = element.nextSibling.nextSibling;
-
-  if (!thisDropdown.classList.contains('show')) {  // Added to hide dropdown if clicking on the one already open
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      dropdowns[i].classList.remove('show');
-    }
-  }
-
-  // Toggle the dropdown on the element clicked
-  thisDropdown.classList.toggle("show");
-}
-
-/* W3Schools function to close the dropdown when clicked outside. */
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-  </script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andy Welch | Lifestyle</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Global site tag (gtag.js) - Google Ads: 949784283 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-949784283"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-949784283');
+    </script>
+</head>
 <body>
-<br>
-</br>
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="container">
+        <div class="content">
+            <video autoplay muted loop id="Videobackground">
+                <source src="images/videobackground.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <nav class="navbar">
+                <div class="navbar-container">
+                    <a href="http://www.andywelchmedia.com" class="navbar-logo">
+                        <img src="images/header.png" alt="Andy Welch Media">
+                    </a>
+                    <button class="navbar-toggle" aria-label="Toggle navigation">
+                        ☰
+                    </button>
+                    <ul class="navbar-menu">
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Portfolio</a>
+                            <div class="navbar-dropdown">
+                                <a href="http://www.andywelchmedia.com/lifestyle.htm">Lifestyle</a>
+                                <a href="http://www.andywelchmedia.com/fashion.htm">Fashion</a>
+                                <a href="http://www.andywelchmedia.com/beauty.htm">Beauty</a>
+                                <a href="http://www.andywelchmedia.com/entertainment.htm">Entertainment</a>
+                                <a href="http://www.andywelchmedia.com/press.htm">Press</a>
+                                <a href="http://www.andywelchmedia.com/video.htm">Video</a>
+                            </div>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link">Personal</a>
+                            <div class="navbar-dropdown">
+                                <a href="http://www.andywelchmedia.com/architecture.htm">Other Earth</a>
+                                <a href="http://www.andywelchmedia.com/virtualangels.htm">Virtual Angels</a>
+                                <a href="http://www.andywelchmedia.com/angelsofatlantis.htm">Angels of Atlantis</a>
+                            </div>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="http://www.andywelchmedia.com/diary.htm" class="navbar-link">Diary</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="http://www.andywelchmedia.com/about.htm" class="navbar-link">About AW</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="http://www.andywelchmedia.com/contact.htm" class="navbar-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="video-section">
+                <video id="FeatureVideo" autoplay muted loop>
+                    <source src="images/SierraSamsara.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+
+
+            <main>
+
+
 
   <div class="gallery">
-  <img class="mySlides" src="images/lifestyle/IMG_8658-Edit-2.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8639-Edit-2.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8741-Edit-2.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_2928-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_3009-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_3038-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_3252-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_3293-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_3444-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_4790-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_4846-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8010-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8048-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8208-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8676-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8692-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6462.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6649.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6777.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6894.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6935.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6975.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_5903-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_5960-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_5982-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6310-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6317-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6337-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8425.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8395.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8092.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_3076-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_2580-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/1521-071414.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/20140713-IMG_1357.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/20140713-IMG_1417.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/20140713-IMG_1475.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_0107-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_0765.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_0848.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_0912.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_0957.jpg"alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_4418-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_4696-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_4956-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_5147-Edit.jpg"alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_5421-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_5330.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_5716.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6439-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6500-Edit.jpg"alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7054-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6527-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6677-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_6721-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7107-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7385.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7441.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7569.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7501-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7512-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7643-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7450-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_7642-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8702-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_8897-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_9128-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_9153-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_9677-Edit.jpg" alt="Andy Welch Lifestyle">
-  <img class="mySlides" src="images/lifestyle/IMG_9822-Edit.jpg" alt="Andy Welch Lifestyle">
+  <img class="mySlides" src="images/lifestyle/IMG_8658-Edit-2.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8639-Edit-2.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8741-Edit-2.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_2928-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_3009-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_3038-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_3252-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_3293-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_3444-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_4790-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_4846-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8010-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8048-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8208-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8676-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8692-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6462.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6649.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6777.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6894.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6935.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6975.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_5903-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_5960-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_5982-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6310-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6317-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6337-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8425.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8395.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8092.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_3076-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_2580-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/1521-071414.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/20140713-IMG_1357.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/20140713-IMG_1417.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/20140713-IMG_1475.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_0107-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_0765.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_0848.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_0912.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_0957.jpg"alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_4418-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_4696-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_4956-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_5147-Edit.jpg"alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_5421-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_5330.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_5716.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6439-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6500-Edit.jpg"alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7054-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6527-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6677-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_6721-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7107-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7385.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7441.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7569.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7501-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7512-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7643-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7450-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_7642-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8702-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_8897-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_9128-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_9153-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_9677-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
+  <img class="mySlides" src="images/lifestyle/IMG_9822-Edit.jpg" alt="Andy Welch Lifestyle" onclick="plusSlides(1)" ontouchstart="touchStart(event)" ontouchend="touchEnd(event)">
 
 
 
@@ -164,45 +154,27 @@ window.onclick = function(event) {
 
 
 
-
-
-
-
-
-
-<script>
-  var slideIndex = 1;
-  showSlides(slideIndex);
-
-  // Next/previous controls
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-  }
-  </script>
+  <button class="gallery-btn prev" onclick="plusSlides(-1)" aria-label="Previous image">
+    <svg viewBox="0 0 40 40" width="40" height="40">
+        <circle cx="20" cy="20" r="19" fill="black"/>
+        <path d="M23 12L15 20L23 28" stroke="white" stroke-width="3" fill="none"/>
+    </svg>
+</button>
+<button class="gallery-btn next" onclick="plusSlides(1)" aria-label="Next image">
+    <svg viewBox="0 0 40 40" width="40" height="40">
+        <circle cx="20" cy="20" r="19" fill="black"/>
+        <path d="M17 12L25 20L17 28" stroke="white" stroke-width="3" fill="none"/>
+    </svg>
+</button>
 </div>
-</body>
+</main>
 
-
-<div class-"footer">
 <footer>
-  Copyright Andy Welch 2019 | All Rights Reserved | Site by Andy Welch
+<p>Copyright Andy Welch 2024 | All Rights Reserved | Site by Andy Welch</p>
 </footer>
 </div>
 </div>
+
+<script src="script.js"></script>
+</body>
+</html>
